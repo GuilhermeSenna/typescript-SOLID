@@ -3,7 +3,7 @@
 type CartItem = { name: string; price: number };
 type orderStatus = 'open' | 'closed';
 
-export class ShoppingCart {
+export class ShoppingCartLegacy {
     private readonly _items: CartItem[] = [];
     private _orderStatus: orderStatus = 'open';
 
