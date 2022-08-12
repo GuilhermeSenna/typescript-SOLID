@@ -1,6 +1,6 @@
-// Single Responsibility Principle
+import { CartItem } from './interfaces/cart-item';
 
-type CartItem = { name: string; price: number };
+// Single Responsibility Principle
 type orderStatus = 'open' | 'closed';
 
 export class ShoppingCart {
