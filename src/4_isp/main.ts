@@ -1,7 +1,7 @@
 /*
 Intertaface segregation principle
 
-Os clientes não devem ser forçados a depender de interfaces que não utilizam.
+Os clientes não devem ser forçados a depender de types, interfaces ou métodos abstratos que não utilizam.
 */
 
 import { Messaging } from './services/messaging';
