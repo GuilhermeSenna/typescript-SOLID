@@ -1,8 +1,9 @@
 import { Discount } from './discount';
 import { CartItem } from './interfaces/cart-item';
+import { ShoppingCartProtocol } from './interfaces/shopping-cart-protocol';
 
 // Single Responsibility Principle
-export class ShoppingCart {
+export class ShoppingCart implements ShoppingCartProtocol {
     private readonly _items: CartItem[] = [];
 
     constructor(private readonly discount: Discount) {}
