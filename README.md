@@ -8,7 +8,7 @@
 - **OpenClosed Principle** (2_ocp)
 - **Liskov Substitution Principle** (3_lsp)
 - **Interface Segregation Principle** (4_isp)
-- **Dependency Inversion Principle**
+- **Dependency Inversion Principle** (5_dip)
 
 ## Projets paths
 
